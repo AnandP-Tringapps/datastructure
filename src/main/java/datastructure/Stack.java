@@ -58,7 +58,7 @@ class Stack {
     
     public void contains(String car) {
     String containes = null;
-	if(Stack==containes) {
+	if(Stack.equals(containes)) {
             System.out.println("Yes");
             return;
         }
