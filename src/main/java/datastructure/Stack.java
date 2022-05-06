@@ -1,7 +1,7 @@
 package datastructure;
 
 class Stack {
-    private static final String stack = null;
+    private static final String Stack = null;
 	String [] arr;
     int top;
     int size;
@@ -59,7 +59,7 @@ class Stack {
     
     public void contains(String car) {
     String containes = null;
-	if(stack==containes) {
+	if(Stack==containes) {
             System.out.println("Yes");
             return;
         }
