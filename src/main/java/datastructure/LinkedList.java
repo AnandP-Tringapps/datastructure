@@ -42,7 +42,7 @@ public class LinkedList{
 			return head;
 		}
 
-		LinkedList next = temp.next.next;
+		LinkedList thisnext = temp.next.next;
 		temp.next = next;
 		return head;
 	}
