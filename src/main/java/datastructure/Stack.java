@@ -1,9 +1,10 @@
 package datastructure;
 
 class Stack {
-    private static final String Stack = null;
+    private static final String stack = null;
 	String [] arr;
-    int top,size;
+    int top;
+    int size;
     Stack(int size) {
         this.size=size;
         arr=new String[size];
@@ -58,7 +59,7 @@ class Stack {
     
     public void contains(String car) {
     String containes = null;
-	if(Stack.equals(containes)) {
+	if(stack==containes) {
             System.out.println("Yes");
             return;
         }
